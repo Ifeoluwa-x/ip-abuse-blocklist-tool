@@ -1,4 +1,3 @@
-```markdown
 # IP Abuse Blocklist Tool
 
 This is a **mini SOC Analyst tool** I built to help flag and block abusive IPs based on real-time data from the [AbuseIPDB](https://abuseipdb.com) API. It automates the process of checking IPs for abuse reports and generates a blocklist for suspicious ones.
@@ -20,15 +19,15 @@ Checking 178.62.21.86...
  → Score: 88
    🚩 Flagged: 178.62.21.86
 ...
-✅ Done. Flagged 10 suspicious IPs.
-⏱️ Total runtime: 19.2 seconds
+✅Done. Flagged 10 suspicious IPs.
+  Total runtime: 19.2 seconds
 ```
 
 ## 🚀 Setup
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ip-abuse-blocklist-tool.git
+   git clone https://github.com/ifeoluwa-x/ip-abuse-blocklist-tool.git
    cd ip-abuse-blocklist-tool
    ```
 
@@ -59,4 +58,9 @@ Checking 178.62.21.86...
 ## 📄 License
 
 MIT License
-```
+
+### ✅ Bonus: `requirements.txt`
+Create a `requirements.txt` with:
+```text
+requests
+python-dotenv
